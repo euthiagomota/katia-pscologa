@@ -1,4 +1,8 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import portrait from "./assets/katia-viel.webp";
+import cuidadoPhoto from "./assets/reflexao-cuidado.jpg";
+import naturezaPhoto from "./assets/reflexao-natureza.jpg";
+import pausaPhoto from "./assets/reflexao-pausa.jpg";
 
 const config = {
   instagram: "https://www.instagram.com/katiavielpsicologa",
@@ -211,7 +215,7 @@ const concepts = [
     "Nossas ações também influenciam emoções e pensamentos. Na terapia, novas possibilidades podem ser construídas.",
   ],
 ];
-const photos = ["/reflexao-natureza.jpg", "/reflexao-pausa.jpg", "/reflexao-cuidado.jpg"];
+const photos = [naturezaPhoto, pausaPhoto, cuidadoPhoto];
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -358,7 +362,7 @@ export default function App() {
               <div className="portrait-arch">
                 <div className="portrait-light" />
                 <img
-                  src="/katia-viel.webp"
+                  src={portrait}
                   alt="Psicóloga Kátia Viel"
                   fetchPriority="high"
                   width="1122"
@@ -427,7 +431,7 @@ export default function App() {
               <div className="about-photo-inner">
                 <Botanical />
                 <img
-                  src="/katia-viel.webp"
+                  src={portrait}
                   alt="Retrato de Kátia Viel, psicóloga"
                   width="1122"
                   height="1402"
