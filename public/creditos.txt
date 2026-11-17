@@ -1,0 +1,12 @@
+Fotografia da profissional: fornecida pela cliente para este protótipo.
+
+Fotografias editoriais: Unsplash
+- Cat Han: https://unsplash.com/@figmentprints
+  https://images.unsplash.com/photo-1617214922084-5db8d3c3df5a
+- Mykola Kolya Korzh: https://unsplash.com/@kolyakorzh
+  https://images.unsplash.com/photo-1608195155945-6d1b97b0fe9c
+- Ashe Walker: https://unsplash.com/@marsupialpudding
+  https://images.unsplash.com/photo-1675468408426-7c3e91233f57
+
+Fontes: Inter e Playfair Display, distribuídas sob a SIL Open Font License.
+Licenças disponíveis no diretório /fonts.

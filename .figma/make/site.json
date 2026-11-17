@@ -1,0 +1,10 @@
+{
+  "description": "Landing page da psicóloga Kátia Viel apresenta sua abordagem em TCC, conteúdos sobre saúde emocional e informações sobre psicoterapia, facilitando o contato.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
